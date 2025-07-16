@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palindrome Checker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="base-ctn">
+    <div id="presentation-ctn">
+      <h1 class="presentation-title">Palindrome Checker</h1>
+      <p class="presentation-text">By <span>Frey EGH</span></p>
+    </div>
+    <div id="checker-ctn">
+      <label class="checker-request-text" for="check-btn">Please, enter a word or phrase to check if it's a Palindrome</label>
+      <div class="input-ctn">
+        <input id="text-input" type="text">
+        <button id="check-btn" type="button">Check</button>
+      </div>
+    </div>
+    <span id="result" class="flex"></span>
+    <span id="what_is">What's a <span id="show_description" class="italic special_style">Palindrome</span> ?</span>
+
+    <!-- Modal -->
+
+    <div id="description-box" class="hidden">
+      <div id="description-content">
+        <p>A <span class="italic">palindrome</span> is a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam, nurses run, etc.</p>
+        <span id="close">Close</span>
+      </div>
+    </div>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
