@@ -19,7 +19,8 @@ const collections = [
   "Don't waste my time, Amigo.",
   "Do you wanna test me, right?",
   "Do you really have nothing better to do?",
-  "Pack it in, friend."
+  "Pack it in, friend.",
+  "¿Te lo digo en Español entonces?"
 ]
 
 checkBtn.addEventListener('click', () => {
@@ -39,7 +40,6 @@ checkBtn.addEventListener('click', () => {
     textInput.focus()
   }
 
-
 })
 
 showDescriptionBtn.addEventListener('click', () => {
@@ -51,5 +51,3 @@ closeModalBtn.addEventListener('click', () => {
   modalBox.classList.remove('flex')
   modalBox.classList.add('hidden')
 })
-
-
